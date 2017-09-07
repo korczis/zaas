@@ -46,7 +46,7 @@ brand =
                 ]
             ]
             []
-        , text "ZaaS"
+        , text "ZaaS - Zeman as a Service"
         ]
 
 viewStats : Html msg

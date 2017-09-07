@@ -37,6 +37,23 @@ snLinkedin128 =
 snTwitter128 =
     AssetPath "../../priv/static/images/social/twitter_128.png"
 
+-- Zeman
+
+zeman0 =
+   AssetPath "../../priv/static/images/zeman/zeman-0.jpg"
+
+zeman1 =
+   AssetPath "../../priv/static/images/zeman/zeman-1.jpg"
+
+zeman2 =
+   AssetPath "../../priv/static/images/zeman/zeman-2.jpg"
+
+zeman3 =
+   AssetPath "../../priv/static/images/zeman/zeman-3.jpg"
+
+zeman4 =
+   AssetPath "../../priv/static/images/zeman/zeman-4.jpg"
+
 path : AssetPath -> String
 path (AssetPath str) =
     str

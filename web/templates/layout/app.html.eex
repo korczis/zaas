@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>The Scratch</title>
+    <title>ZaaS - Zeman as a Service</title>
 
     <script src="/components/webcomponentsjs/webcomponents-lite.min.js"></script>
     <link rel="import" href="/components/google-map/google-map.html">
