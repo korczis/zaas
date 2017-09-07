@@ -46,7 +46,7 @@ brand =
                 ]
             ]
             []
-        , text "The Scratch"
+        , text "ZaaS"
         ]
 
 viewStats : Html msg
@@ -75,7 +75,7 @@ customItemsSignedOut : List (Navbar.CustomItem Msg.Msg)
 customItemsSignedOut =
     [ Navbar.formItem [ ]
         [ Button.linkButton [ Button.attrs [ href "/#/auth/signin" ] ] [ text "Sign in" ]
-        , viewStats
+        -- , viewStats
         ]
     ]
 
