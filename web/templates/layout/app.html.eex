@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Scratch</title>
+
+    <script src="/components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="/components/google-map/google-map.html">
+  </head>
+
+  <body>
+    <main role="main">
+        <%= render @view_module, @view_template, assigns %>
+    </main>
+
+    <script src="<%= static_path(@conn, "/assets/app.js") %>" csrf="<%= get_csrf_token() %>"></script>
+  </body>
+</html>
